@@ -14,5 +14,6 @@ use App\Http\Controllers\MyController;
 |
 */
 
-Route::get('/',[MyController::class,'index'])->name('index');
-Route::get('/tentang',[MyController::class,'about'])->name('about');
+Route::get('/',[MyController::class,'index']);
+Route::get('/about',[MyController::class,'about']);
+
